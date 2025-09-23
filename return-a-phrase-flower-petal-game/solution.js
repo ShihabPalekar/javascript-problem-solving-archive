@@ -7,10 +7,5 @@ function howMuchILoveYou(nbPetals) {
     "madly",
     "not at all",
   ];
-
-  if (nbPetals > 6) {
-    return phrases[nbPetals - 6 - 1];
-  } else {
-    return phrases[nbPetals - 1];
-  }
+  return phrases[(nbPetals - 1) % phrases.length];
 }
