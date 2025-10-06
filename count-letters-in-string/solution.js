@@ -20,15 +20,3 @@ function count(string) {
     return counts;
   }, {});
 }
-
-
-//Solution 3
-function countLetters(word) {
-  const count = {};
-
-  word.split("").forEach((letter) => {
-    count[letter] = !count[letter] ? 1 : count[letter]++;
-  });
-
-  return count;
-}
