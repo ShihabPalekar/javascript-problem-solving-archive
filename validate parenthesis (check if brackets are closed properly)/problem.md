@@ -1,0 +1,2 @@
+Input: "({[]})" → ✅ valid
+Input: "({[})" → ❌ invalid
