@@ -1,0 +1,2 @@
+Input: "aabbcddee"
+Output: "c"
