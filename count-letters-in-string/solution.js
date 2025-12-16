@@ -105,6 +105,9 @@ function mostRepeated(str) {
 
 //SCENARIO 5
 //return count of letters in descending order
+//NOTE: this wont work for array of numbers coz js treats keys "1","2" as 1,2 
+//JS Objects do not preserve order for numeric keys. They are auto-sorted.
+//In JS, integer keys are always sorted in ascending order; string keys are inserted the way you add them; symbol keys are inserted last.
 
 function mostRepeated(str) {
   const count = {};
